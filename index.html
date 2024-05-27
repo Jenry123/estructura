@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol Binario de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestión de Productos</h1>
+    <form id="product-form">
+        <label for="product-id" id="l1">ID del Producto:</label><br><br>
+        <input type="number" id="product-id" required><br><br>
+        <label for="product-name" id="l2">Nombre del Producto:</label><br><br>
+        <input type="text" id="product-name" required><br><br>
+        <button type="submit" class="agregar">Agregar Producto</button>
+    </form>
+    <button id="show-products">Mostrar Productos (Ordenados por ID)</button>
+    <ul id="product-list"></ul>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
